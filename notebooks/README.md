@@ -13,6 +13,19 @@ This notebook, `EDA.ipynb`, is used to perform data cleaning and outlier detecti
    - Compute the IQR and use it to detect and remove outliers.
 4. **Error Handling**: The code is robust enough to handle common errors, such as unsupported operations on boolean values.
 
+# A/B Testing Simulation for Insurance Analytics
+
+The A/B test comparing claim frequencies between two groups: a control group with standard premiums and a treatment group with reduced premiums.
+
+
+## Setting the P-value Threshold
+
+Typically, a significance level (\( \alpha \)) of 0.05 is used:
+
+- If the p-value is less than \( \alpha \) (0.05), we **reject the null hypothesis**.
+- If the p-value is greater than or equal to \( \alpha \) (0.05), we **fail to reject the null hypothesis**.
+
+
 ## Setup and Requirements
 
 ### Prerequisites
